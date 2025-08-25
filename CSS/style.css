@@ -145,6 +145,17 @@ section div a{
     font-weight: 400;
 }
 
+.supleinfo img{
+    width: 150px;
+    height: auto;
+    margin: 80px;
+
+    justify-content: space-between;
+
+    border-radius: 50%;
+    border: 5px solid #a3c7c5;
+}
+
 .donde{
     text-align: center;
 }
@@ -214,11 +225,22 @@ section div a{
     color: #f6e1b1;
 }
 
-.entrenamientoinfo a{
+/*- .entrenamientoinfo a{
     text-decoration: none;
     color: #97b1b4;
     font-size: 30px;
     font-weight: 400;
+} */
+
+.entrenamientoinfo img{
+    width: 150px;
+    height: auto;
+    margin: 80px;
+
+    justify-content: space-between;
+
+    border-radius: 50%;
+    border: 5px solid #a3c7c5;
 }
 
 .inforutina{
