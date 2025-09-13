@@ -129,6 +129,17 @@ main{
     background-color: #2a3b4c;
 }
 
+.servicios a{
+    text-decoration: none;
+    border: 2px solid #97b1b4;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #97b1b4;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 5px 10px;
+}
+
 main section div img{
     width: 500px;
     height: 300px;
@@ -202,6 +213,17 @@ section div a{
     border-radius: 10px;
     background-color: #2a3b4c;
 }
+
+.inforutina a{
+    text-decoration: none;
+    border: 2px solid #97b1b4;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #97b1b4;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 5px 10px;
+}   
 
 /*!---------------------------------------------------SUPLEMENTOS---------------------------------------------------*/
 
