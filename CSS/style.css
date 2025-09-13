@@ -263,22 +263,6 @@ section div a{
 
 }
 
-.donde{
-    text-align: center;
-}
-
-.mapa {
-    text-align: center;
-}
-
-.mapa iframe {
-    width: 100%;
-    height: 400px;
-    border: none;
-    border-radius: 12px; 
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
-}
-
 .supleproductos{
     text-align: center;
 }
@@ -298,15 +282,16 @@ section div a{
     background-color: #2a3b4c;
 }
 
-.supleproductos div a{
+.supleproductos a{
     text-decoration: none;
+    border: 2px solid #97b1b4;
+    border-radius: 10px;
     background-color: #000000;
     color: #97b1b4;
     font-size: 30px;
     font-weight: 400;
     padding: 5px 10px;
-}
-
+}   
 /**!---------------------------------------------NOSOTROS---------------------------------------------------*/
 
 .nosotros {
@@ -484,78 +469,3 @@ footer {
     }
 }
 
-@media (max-width: 600px) {
-    .hero h2 {
-        font-size: 40px;
-        margin-top: 10px;
-    }
-    .hero p {
-        font-size: 20px;
-    }
-    .hero a img {
-        width: 100px;
-        margin: 100px 0 0 0;
-    }
-    .servicios h2 {
-        font-size: 50px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .servicios div img {
-        width: 300px;
-        height: 200px;
-        margin: 10px;
-    }
-    section div h3 {
-        font-size: 30px;
-    }
-    section div a {
-        font-size: 20px;
-        padding: 3px 6px;
-    }
-    .entrenamientoinfo h2 {
-        font-size: 50px;
-        padding-top: 80px;
-    }
-    .entrenamientoinfo p {
-        font-size: 20px;
-    }
-    .entrenamientoinfo img {
-        width: 100px;
-        margin: 30px 0 0 0;
-    }
-    .supleinfo h2 {
-        font-size: 50px;
-        padding-top: 80px;
-    }
-    .supleinfo p {
-        font-size: 20px;
-    }
-    .supleinfo a {
-        font-size: 20px;
-    }
-    .supleinfo img {
-        width: 100px;
-        margin: 30px 0 0 0;
-    }
-    .supleproductos h2 {
-        font-size: 50px;
-        margin: 20px auto;
-        padding: 10px 0;
-    }
-    .supleproductos img {
-        width: 200px;
-        margin: 10px;
-    }
-    .supleproductos div a {
-        font-size: 20px;
-        padding: 3px 6px;
-    }
-    .footer-direccion {
-        font-size: 24px;
-        gap: 6px;
-    }
-    .footer-social a {
-        font-size: 24px;
-    }
-}
