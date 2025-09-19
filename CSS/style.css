@@ -562,61 +562,63 @@ footer {
 }
 
 @media screen and (max-width: 624px) {
-    
-    .hero h1{
+
+    .hero h1 {
         font-size: 60px;
         padding-top: 150px;
     }
-    .hero h2{
-        font-size: 50px;
-    }
-    .hero p{
-        font-size: 20px;
-        margin: 15px;
-    }
-    .servicios h2{
-        font-size: 50px;
-    }
-    .servicios div img{
-        width: 300px;
-        height: 200px;
-    }
-    section div h3{
-        font-size: 30px;
-    }
-    section div a{
-        font-size: 20px;
-        padding: 3px 6px;
-    }
-    .entrenamientoinfo h2{
+
+    .entrenamientoinfo h2 {
         font-size: 60px;
         padding-top: 100px;
     }
-    .entrenamientoinfo p{
-        font-size: 20px;
-    }
-    .supleinfo h2{
+
+    .supleinfo h2 {
         font-size: 60px;
         padding-top: 150px;
     }
-    .supleinfo p{
-        font-size: 20px;
-    }
-    .supleproductos h2{
+
+    .hero h2,
+    .servicios h2,
+    .supleproductos h2 {
         font-size: 50px;
     }
-    .supleproductos img{
+
+    .hero p,
+    .entrenamientoinfo p,
+    .supleinfo p {
+        font-size: 20px;
+    }
+
+    .servicios div img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .supleproductos img {
         width: 200px;
         height: auto;
     }
+
+    section div h3 {
+        font-size: 30px;
+    }
+
+    section div a {
+        font-size: 20px;
+        padding: 3px 6px;
+    }
+
     .nosotros h1 {
         font-size: 100px;
         padding-top: 60px;
     }
+
     .section-contacto {
         padding-top: 160px;
     }
 }
+
 
 @media screen and (max-width: 424px) {
     .servicios div {
@@ -627,5 +629,28 @@ footer {
         width: 90%;
         height: auto;
         margin: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .section-contacto {
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 0;
+        padding-top: 150px;
+    }
+    .content-form form {
+        width: 90vw;
+        max-width: 260px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .content-form form .caja-texto {
+        width: 90vw;
+        max-width: 220px;
+        height: 120px;
     }
 }
