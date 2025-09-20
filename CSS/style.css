@@ -163,7 +163,11 @@ section div a{
     padding: 5px 10px;
 }
 
-
+.servicios p{
+    font-size: 30px;
+    font-weight: 500;
+    color: #f6e1b1;
+}
 /*!--------------------------------------------------ENTRENAMIENTOS---------------------------------------------------*/
 
 .entrenamientoinfo{
@@ -546,7 +550,7 @@ footer {
         margin: 0 2px;
     }
     .nosotros-grid {
-        grid-template-columns: 1fr; /* 1 columna en pantallas chicas */
+        grid-template-columns: 1fr; 
         gap: 18px;
     }
     .nosotros h1 {
@@ -640,6 +644,11 @@ footer {
         width: 90%;
         height: auto;
         margin: 10px;
+    }
+
+    .servicios p{
+        font-size: 20px;
+        font-weight: 500;
     }
 }
 
