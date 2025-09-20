@@ -570,7 +570,7 @@ footer {
 
     .entrenamientoinfo h2 {
         font-size: 60px;
-        padding-top: 100px;
+        padding-top: 150px;
     }
 
     .supleinfo h2 {
@@ -617,6 +617,17 @@ footer {
     .section-contacto {
         padding-top: 160px;
     }
+
+    .inforutina div{
+        width: 80%;
+        height: auto;
+    }
+
+    .inforutina div img{
+        width: 90%;
+        height: auto;
+        margin: 10px;
+    }
 }
 
 
@@ -652,5 +663,11 @@ footer {
         width: 90vw;
         max-width: 220px;
         height: 120px;
+    }
+
+    .entrenamientoinfo img{
+        width: 90px;
+        height: auto;
+        margin: 10px;
     }
 }
