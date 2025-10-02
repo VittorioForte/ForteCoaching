@@ -29,8 +29,8 @@ header {
 .custom-navbar {
     display: flex;
     gap: 2rem;
-    backdrop-filter: blur(10px); /* blurreado del fondo */
-    background: rgba(255, 255, 255, 0.2); /* fondo semitransparente */
+    backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.2); 
     padding: 10px 25px;
     border-radius: 50px; 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
@@ -47,10 +47,6 @@ header {
     transition: all 0.3s ease;
 }
 
-.custom-navbar .nav-link.active {
-    background: #1c2731;
-    color: white;
-}
 
 /*!----------------------------------------------------MAIN----------------------------------------------------?*/
 
