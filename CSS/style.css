@@ -227,9 +227,11 @@ section div a{
     background-color: #2a3b4c;
 }
 .inforutina div img{
-    width: 300px;
+    width: 60%;
     height: auto;
     margin: 20px;
+    border: #1c2731 solid 5px;
+    border-radius: 10px;
 }
 
 .inforutina a{
