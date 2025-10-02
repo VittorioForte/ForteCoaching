@@ -105,6 +105,14 @@ main{
     justify-content: space-between;
     border-radius: 50%;
     border: 5px solid #a3c7c5;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.18);
+}
+
+.hero a img:hover {
+    transform: translateY(-8px) scale(1.1);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.25);
 }
 
 .servicios{
@@ -140,7 +148,7 @@ main{
     padding: 5px 10px;
 }
 
-main section div img{
+.servicios div img{
     width: 500px;
     height: 300px;
     margin: 20px;
@@ -168,6 +176,7 @@ section div a{
     font-weight: 500;
     color: #f6e1b1;
 }
+
 /*!--------------------------------------------------ENTRENAMIENTOS---------------------------------------------------*/
 
 .entrenamientoinfo{
