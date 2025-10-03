@@ -1,0 +1,196 @@
+@media screen and (max-width: 1600px) {
+    .hero a img{
+        width: 80px;
+        height: auto;
+        margin: 100px;
+    }
+
+    .hero a img, .entrenamientoinfo img,
+    .supleinfo img{
+        width: 120px;
+        height: auto;
+        margin: 30px;
+    }
+}
+
+@media screen and (max-width: 1291px) {
+    .hero a img{
+        display: none;
+    }
+    
+    .hero h2{
+        margin-top: 120px;
+    }
+}
+
+
+@media screen and (max-width: 879px) {
+    .supleinfo img{
+        width: 90px;
+        height: auto;
+        margin: 15px;
+    }
+
+    .supleinfo h2{
+        font-size: 60px;
+        padding-top: 100px;
+    }
+
+    .footer-map iframe{
+    width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header nav .custom-navbar {
+        gap: 0.5rem;
+        padding: 6px 8px;
+        font-size: 16px;
+        border-radius: 30px;
+        width: 98vw;
+    }
+    header nav .custom-navbar li .nav-link {
+        font-size: 16px;
+        padding: 4px 8px;
+        margin: 0 2px;
+    }
+    .nosotros-grid {
+        grid-template-columns: 1fr; 
+        gap: 18px;
+    }
+    .nosotros h1 {
+        font-size: 32px;
+    }
+    .nosotros-bloque {
+        padding: 18px 8px;
+    }
+    .nosotros-bloque img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 624px) {
+
+    .hero h1 {
+        font-size: 60px;
+        padding-top: 150px;
+    }
+
+    .entrenamientoinfo h2 {
+        font-size: 60px;
+        padding-top: 150px;
+    }
+
+    .supleinfo h2 {
+        font-size: 60px;
+        padding-top: 150px;
+    }
+
+    .hero h2,
+    .servicios h2,
+    .supleproductos h2 {
+        font-size: 50px;
+    }
+
+    .hero p,
+    .entrenamientoinfo p,
+    .supleinfo p {
+        font-size: 20px;
+    }
+
+    .servicios div img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .supleproductos img {
+        width: 200px;
+        height: auto;
+    }
+
+    section div h3 {
+        font-size: 30px;
+    }
+
+    section div a {
+        font-size: 20px;
+        padding: 3px 6px;
+    }
+
+    .nosotros h1 {
+        font-size: 100px;
+        padding-top: 60px;
+    }
+
+    .section-contacto {
+        padding-top: 160px;
+    }
+
+    .inforutina div{
+        width: 80%;
+        height: auto;
+    }
+
+    .inforutina div h2, .supleproductos div h3{
+        font-size: 40px;
+    }
+
+    .inforutina div img{
+        width: 90%;
+        height: auto;
+        margin: 10px;
+    }
+}
+
+
+@media screen and (max-width: 424px) {
+    .servicios div, .supleproductos div{
+        width: 80%;
+    }
+
+    .servicios div img, .supleproductos div img{
+        width: 90%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .servicios div p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .section-contacto {
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 0;
+        padding-top: 150px;
+    }
+    .content-form form {
+        width: 90vw;
+        max-width: 260px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .content-form form .caja-texto {
+        width: 90vw;
+        max-width: 220px;
+        height: 120px;
+    }
+
+    .entrenamientoinfo img{
+        width: 90px;
+        height: auto;
+        margin: 10px;
+    }
+
+    .servicios div h3{
+        font-size: 25px;
+    }
+}
