@@ -178,6 +178,88 @@ text-align: center;
     }
 }
 
+.supleinfo{
+text-align: center;
+height: 600px;
+background-image: url(../img/fondo-suplementos.webp);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+    h2{
+    padding-top: 150px;
+    font-size: 100px;
+    font-weight: 800;
+    color: #a3c7c5;
+    }
+
+    p{
+    font-size: 30px;
+    font-weight: 400;
+    color: #f6e1b1;
+    }
+
+    img{
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    margin: 50px;
+    justify-content: space-between;
+    border-radius: 50%;
+    border: 5px solid #a3c7c5;
+    }
+
+}
+
+.supleproductos{
+text-align: center;
+margin: 80px 0px;
+
+    h2{
+    background-color: #2a3b4c;
+    border-radius: 20px;
+    width: 90%;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    color: #a3c7c5;
+    margin: 40px auto;
+    padding: 20px 0;
+    }
+
+    div{
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid #97b1b4;
+    border-radius: 10px;
+    background-color: #2a3b4c;
+
+        h3{
+        font-size: 50px;
+        font-weight: 800;
+        color: #a3c7c5;
+        }
+
+        a{
+        text-decoration: none;
+        border: 2px solid #97b1b4;
+        border-radius: 10px;
+        background-color: #000000;
+        color: #97b1b4;
+        font-size: 30px;
+        font-weight: 400;
+        padding: 5px 10px;
+        }
+
+        img{
+        width: 300px;
+        height: auto;
+        margin: 20px;
+        }
+
+    }
+}
 
 .nosotros{
 padding: 100px 0 40px 0;

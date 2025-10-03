@@ -266,13 +266,6 @@ section div a{
     color: #f6e1b1;
 }
 
-.supleinfo a{
-    text-decoration: none;
-    color: #97b1b4;
-    font-size: 30px;
-    font-weight: 400;
-}
-
 .supleinfo img{
     width: 150px;
     height: auto;
@@ -299,10 +292,6 @@ section div a{
     margin: 40px auto;
     padding: 20px 0;
 
-}
-
-.supleproductos{
-    text-align: center;
 }
 
 .supleproductos img{
