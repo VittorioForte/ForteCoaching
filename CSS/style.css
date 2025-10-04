@@ -395,16 +395,6 @@ section div a{
 
 /**!-------------------------------------------------CONTACTANOS---------------------------------------------------*/
 
-.contactanos{
-    padding-top: 10%;
-    text-align: center;
-}
-
-.contactanos div img{
-    width: 100px;
-    height: auto;
-}
-
 .section-contacto {
     display: flex;
     justify-content: center;

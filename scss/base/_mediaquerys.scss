@@ -171,14 +171,15 @@
         display: flex;
         padding: 0;
         padding-top: 150px;
+        padding-bottom: 15px;
     }
-    .content-form form {
+    .section-contacto .content-form form {
         width: 90vw;
         max-width: 260px;
         margin: 0 auto;
         padding: 10px;
     }
-    .content-form form .caja-texto {
+    .section-contacto .content-form form .caja-texto {
         width: 90vw;
         max-width: 220px;
         height: 120px;
