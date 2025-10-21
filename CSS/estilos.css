@@ -48,7 +48,10 @@
 }
 
 .servicios {
+  display: inline-block;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   margin: 80px 0x;
 }
 .servicios h2 {
@@ -122,7 +125,10 @@
 }
 
 .inforutina {
+  display: inline-block;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .inforutina div {
   display: inline-block;

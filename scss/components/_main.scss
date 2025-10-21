@@ -1,3 +1,6 @@
+@import '../base/funcionalidades';
+
+
 .hero{
     text-align: center;
     height: 1000px;
@@ -11,7 +14,7 @@
     padding-top: 100px;
     font-size: 100px;
     font-weight: 900px;
-    color: #f6e1b1;
+    color: $color-terciario;
     text-align: center;    
     }
 
@@ -30,7 +33,7 @@
     p{
     font-size: 30px;
     font-weight: 400;
-    color: #f6e1b1;
+    color: $color-terciario;
     }
     
     a{
@@ -42,7 +45,7 @@
             margin-top: 50px;
             justify-content: space-between;
             border-radius: 50%;
-            border: 5px solid #a3c7c5;
+            border: 5px solid $color-primario;
             transition: transform 0.2s, box-shadow 0.2s;
             box-shadow: 0 4px 18px rgba(0,0,0,0.18);
 
@@ -57,13 +60,13 @@
 
 
 .servicios{
-    text-align: center;
+    @include centro;
     margin: 80px 0x;
 
     h2{
     font-size: 80px;
     font-weight: 800;
-    color: #a3c7c5;
+    color: $color-primario;
     margin-top: 40px;
     margin-bottom: 40px;    
     }
@@ -85,7 +88,7 @@
         h3{
         font-size: 50px;
         font-weight: 800;
-        color: #a3c7c5;
+        color: $color-primario;
         }
 
         a{
@@ -102,7 +105,7 @@
         p{
         font-size: 30px;
         font-weight: 500;
-        color: #f6e1b1;
+        color: $color-terciario;
         }
     }
 
@@ -121,13 +124,13 @@ background-attachment: fixed;
     padding-top: 150px;
     font-size: 100px;
     font-weight: 800;
-    color: #a3c7c5;
+    color: $color-primario;
     }
 
     p{
     font-size: 30px;
     font-weight: 400;
-    color: #f6e1b1;
+    color: $color-terciario;
     }
 
     img{
@@ -136,12 +139,12 @@ background-attachment: fixed;
     margin: 50px;
     justify-content: space-between;
     border-radius: 50%;
-    border: 5px solid #a3c7c5;
+    border: 5px solid $color-primario;
     }
 }
 
 .inforutina{
-text-align: center;
+@include centro;
     div{
     display: inline-block;
     margin: 20px;
@@ -153,7 +156,7 @@ text-align: center;
         h2{
         font-size: 100px;
         font-weight: 800;
-        color: #a3c7c5;
+        color: $color-primario;
         }
 
         a{
@@ -196,7 +199,7 @@ background-attachment: fixed;
     p{
     font-size: 30px;
     font-weight: 400;
-    color: #f6e1b1;
+    color: $color-terciario;
     }
 
     img{
@@ -206,7 +209,7 @@ background-attachment: fixed;
     margin: 50px;
     justify-content: space-between;
     border-radius: 50%;
-    border: 5px solid #a3c7c5;
+    border: 5px solid $color-primario;
     }
 
 }
@@ -222,7 +225,7 @@ margin: 80px 0px;
     text-align: center;
     font-size: 80px;
     font-weight: 800;
-    color: #a3c7c5;
+    color: $color-primario;
     margin: 40px auto;
     padding: 20px 0;
     }
@@ -238,7 +241,7 @@ margin: 80px 0px;
         h3{
         font-size: 50px;
         font-weight: 800;
-        color: #a3c7c5;
+        color: $color-primario;
         }
 
         a{
@@ -267,14 +270,14 @@ display: flex;
 flex-direction: column;
 align-items: center;
 background: none;
-color: #f6e1b1;
+color: $color-terciario;
 
     h1{
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 40px;
     text-align: center;
-    color: #f6e1b1;
+    color: $color-terciario;
     }
 
     .nosotros-grid{
@@ -313,24 +316,24 @@ color: #f6e1b1;
         font-size: 26px;
         font-weight: 700;
         margin-bottom: 12px;
-        color:#a3c7c5;    
+        color: $color-primario;    
         }
 
         h3{
         font-size: 26px;
         font-weight: 700;
         margin-bottom: 12px;
-        color:#a3c7c5;
+        color: $color-primario;
         }
 
         p{
         font-size: 18px;
-        color: #f6e1b1;
+        color: $color-terciario;
         margin-bottom: 0;
         }
 
         em{
-        color: #f6e1b1;
+        color: $color-terciario;
         font-style: italic;
         font-weight: 600;        
         }
